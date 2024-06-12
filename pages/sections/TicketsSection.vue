@@ -29,7 +29,7 @@
                             <p>Проверить штрафы</p>
                             <Icon name="mdi:arrow-right" size="20"/>
                         </ButtonBrand>
-                        <button class="btn text-lg flex items-center border-blue px-[20px] rounded-md">
+                        <button class="btn text-lg flex gap-[4px] items-center border-blue px-[20px] rounded-md">
                             <img src="../../assets/icons/youtube.svg" alt="">
                             О сервисе
                             <span class="text-[#1253A2] text-[15px]">(1 мин. 20 сек)</span>
