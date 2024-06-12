@@ -3,7 +3,7 @@ import { DOCUMENTS_DATA } from '../components/documents.data'
 
 </script>
 <template>
-    <section class="service">
+    <section class="service h-[100vh]">
         <div class="container ">
             <h2 class="text-[34px] font-bold leading-10 text-center">Документы</h2>
             <div class="documents flex flex-wrap gap-[35px] justify-around mt-[57px]">
@@ -40,7 +40,7 @@ import { DOCUMENTS_DATA } from '../components/documents.data'
 
 .arrows {
     position: absolute;
-    top: 30%;
+    top: 70%;
     left: 0;
     right: 0;
     display: flex;

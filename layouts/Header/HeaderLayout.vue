@@ -4,7 +4,7 @@ import HeaderLink from './components/HeaderLink.vue'
 import ButtonBrand from '~/components/ButtonBrand.vue';
 </script>
 <template>
-    <header class="  bg-black py-5">
+    <header class="  bg-black py-3">
         <div class="container flex items-center justify-between flex-wrap">
 
             <div class="left flex gap-[30px]">
