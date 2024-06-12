@@ -13,7 +13,10 @@ import { DOCUMENTS_DATA } from '../components/documents.data'
                         <p class="title text-[31px] leading-10 text-[#1253A2] font-bold">{{ document.name }}</p>
                         <p class="sub text-[18px] text-[#000000] mt-[15px]">{{ document.desc }}</p>
                     </div>
-                    <ButtonBrand class="w-full text-center">Перейти</ButtonBrand>
+                    <RouterLink to="/dogovor">
+
+                        <ButtonBrand class="w-full text-center">Перейти</ButtonBrand>
+                    </RouterLink>
                 </div>
             </div>
             <div class="arrows">

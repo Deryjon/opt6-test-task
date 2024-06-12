@@ -1,5 +1,8 @@
 <template>
-    <div class="logo">
-        <img src="../../../assets/icons/logo.svg" alt="">
-    </div>
+    
+    <router-link  to="/">
+    <div class="logo cursor-pointer" >
+            <img src="../../../assets/icons/logo.svg" alt="">
+        </div>
+    </router-link>
 </template>

@@ -14,7 +14,7 @@ import ButtonBrand from '~/components/ButtonBrand.vue';
             </div>
             <div class="right flex flex-wrap text-white  text-lg items-center gap-[30px] ">
                 <p class="font-bold"> +7 495 118-44-22</p>
-                <p>Войти</p>
+                <p class="hover:text-[#0584FE] duration-150 cursor-pointer">Войти</p>
     <ButtonBrand class="w-[117px]">Регистрация</ButtonBrand>
             </div>
         </div>
@@ -23,9 +23,7 @@ import ButtonBrand from '~/components/ButtonBrand.vue';
 
 <style scoped>
 header{
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background: image('../../assets/icons/bg-header.jpg') center;
+    background: linear-gradient(90deg, #000000 30%, #1C2734 73%);
+
 }
 </style>

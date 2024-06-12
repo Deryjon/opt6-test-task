@@ -33,12 +33,15 @@ const isOpen = ref(false)
                             <p>Проверить штрафы</p>
                             <Icon name="mdi:arrow-right" size="20"/>
                         </ButtonBrand>
-                        <button class="btn text-lg flex gap-[4px] items-center border-blue px-[20px] rounded-md" @click="isOpen = true">
+                        <button class="btn text-lg flex gap-[4px] items-center border-blue px-[20px] rounded-md hover:bg-[#d1d2d8] duration-150" @click="isOpen = true">
                             <img src="../../assets/icons/youtube.svg" alt="">
                             О сервисе
                             <span class="text-[#1253A2] text-[15px]">(1 мин. 20 сек)</span>
                         </button>
-                        <UModal v-model="isOpen" class="h-[400px] w-[800px]">
+                        <UModal v-model="isOpen" class="h-[400px] w-[800px] relative">
+                          <div class="flex justify-end absolute">
+                            <Icon name="mdi:close" @click="isOpen = false"/>
+                          </div>
       <div class=" h-[400px] w-[800px]">
         <div class="video-container ">
   <iframe  src="https://www.youtube.com/embed/52oBdIWiDZo?rel=0" frameborder="0" allowfullscreen></iframe>
